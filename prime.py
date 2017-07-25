@@ -1,3 +1,4 @@
+#find prime numbers from start to end
 def Primes(start,end):
  prime=[]
  for i in range(start, end+1):
@@ -10,6 +11,7 @@ def Primes(start,end):
     continue
  return prime
 
+#find prime pairs that are seperated by cup
 def Primes_sets(start,end,cup):
  primeset=[]
  prime=Primes(start,end)
@@ -22,6 +24,7 @@ def Primes_sets(start,end,cup):
    continue
  return primeset
 
+#find the first n Primes
 def NumOfPrimes(n):
  wprime=[]
  i=0
@@ -39,6 +42,7 @@ def NumOfPrimes(n):
     continue
  return wprime
 
+#find the prime numbers of n and it's multiples of those primes
 def Prime_B(n):
  temp=[1]
  multi=[]
